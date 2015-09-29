@@ -1,0 +1,105 @@
+@import url(https://fonts.googleapis.com/css?family=Limelight);
+@import url(https://fonts.googleapis.com/css?family=Audiowide);
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab);
+
+html{
+	background-color: white;
+}
+
+img{
+	height: 100px;
+	width: 300px;
+	border: 1px solid white;
+	border-width: 20px;
+}
+
+body{
+	text-align: center;
+	color: black;
+	font-family: 'Roboto Slab', serif;
+}
+
+h1{
+	font-size: 60px;
+	font-style: italic;
+	color: black;
+	padding-bottom: 70px;
+	padding-top: 70px;
+}
+
+h2 {
+	color: #b1ba66;
+	font-family: 'Roboto Slab', san-serif;
+	font-weight: 10px;
+}
+
+.nav ul {
+      list-style-type: none;
+      margin: 0px;
+      padding: 3px;	
+}
+
+.nav li{
+	display: inline;
+}
+
+.nav2 ul{
+	 list-style-type: none;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+/*Menubar*/
+.nav{
+	 position: inline;
+	 background-color: black;
+	 height: 60px;
+	 padding: auto;
+	 margin-left: 200px;
+	 margin-right: 200px;
+	 margin-top: 10px;
+	 margin-bottom: 10px;
+}
+
+.bodytext{
+	text-align: center;
+	margin:auto;
+	width: 670px;
+}
+
+.howitworks{
+	text-align: center;
+}
+
+#motivologo{
+	font-family: 'Audiowide', cursive;
+	font-size: 40px;
+	margin-right: 550px;
+}
+
+#projects{
+	font-size: 20px;
+	margin-right: 30px;
+}
+
+#about{
+	font-size: 20px;
+	margin-right: 30px;
+}
+
+#contact{
+	font-size: 20px;
+	margin-right: 10px;
+}
+
+#slogan{
+	margin-right: 340px;
+	margin-left: 340px;
+	margin-top: 10px;
+	background: url("../assets/model_6.jpg") no-repeat center center scroll;
+	background-size: cover;
+	height: 500px;
+}

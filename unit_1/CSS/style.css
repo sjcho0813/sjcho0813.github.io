@@ -1,7 +1,9 @@
-body {
-	background-color: blue;
-}
+header{
+	text-align: center;
+	color: #ff748c;
 
-h1, p {
-	color: yellow;
+}
+nav{
+	text-align: center;
+	background-color: #ff748c; 
 }
