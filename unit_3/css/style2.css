@@ -1,47 +1,108 @@
+@import url(https://fonts.googleapis.com/css?family=Limelight);
+@import url(https://fonts.googleapis.com/css?family=Audiowide);
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab);
+
+html{
+	background-color: white;
+}
+
 img{
-	height: 400px;
-	width: 700px;
+	height: 100px;
+	width: 300px;
 	border: 1px solid white;
 	border-width: 20px;
-	height: 300px;
 }
 
 body{
 	text-align: center;
-	color: white;
-	font-family: Arial, Helvetica, sans-serif;
+	color: black;
+	font-family: 'Roboto Slab', serif;
 }
 
-html{
-	background-color: black;
-}
-
-#slogan{
+h1{
+	font-size: 60px;
 	font-style: italic;
-	font-size: 30px;
-	font-family: Arial, Helvetica, sans-serif;
-	height: 50px;
-	border-bottom: 1px solid white;
-	margin-right: 340px;
-	margin-left: 340px;
-	margin-top: 10px;
+	color: black;
+	padding-bottom: 70px;
+	padding-top: 70px;
+}
+
+.nav ul {
+      list-style-type: none;
+      margin: 0px;
+      padding: 3px;	
+}
+
+.nav li{
+	display: inline;
+}
+
+.nav2 ul{
+	 list-style-type: none;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+/*Menubar*/
+.nav{
+	 position: inline;
+	 background-color: black;
+	 height: 60px;
+	 padding: auto;
+	 margin-left: 200px;
+	 margin-right: 200px;
+	 margin-top: 10px;
+	 margin-bottom: 10px;
 }
 
 .bodytext{
-	text-align: left;
-	margin-left: 340px;
-	margin-right: 340px;
+	text-align: center;
+	margin:auto;
+	width: 670px;
 }
 
 .howitworks{
 	text-align: center;
 }
 
-h1{
-	font-size: 50px;
-	height: 30px;
+#motivologo{
+	font-family: 'Audiowide', cursive;
+	font-size: 40px;
+	margin-right: 600px;
 }
 
-ul {
-      list-style-type: none;
+#projects{
+	font-size: 20px;
+	margin-right: 60px;
+}
+
+#about{
+	font-size: 20px;
+	margin-right: 60px;
+}
+
+#contact{
+	font-size: 20px;
+	margin-right: 10px;
+}
+
+#slogan{
+	margin-right: 340px;
+	margin-left: 340px;
+	margin-top: 10px;
+	background: url("../assets/model_6.jpg") no-repeat center center scroll;
+	background-size: cover;
+	height: 500px;
+}
+
+#slogan p{
+	font-size: 30px;
+	font-family: 'Roboto Slab', serif;
+	color: #afb8bc;
+	position: absolute;
+	padding-left: 30px;
+	padding-top: 400px;
 }
