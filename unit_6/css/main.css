@@ -1,0 +1,138 @@
+@import url(https://fonts.googleapis.com/css?family=Fredericka+the+Great);
+@import url(https://fonts.googleapis.com/css?family=Oswald);
+
+body a{
+	text-decoration: none;
+}
+
+h1, h2{
+	text-align: center;
+	font-family: 'Oswald', sans-serif;
+	font-size: 2em;
+}
+
+h2{
+	background-color: #808080;
+	width: 400px;
+	margin-left: 100px;
+}
+
+body{
+	margin-left: 150px;
+	margin-right: 150px;
+}
+
+footer{
+	font-size: 2em;
+/*	background-color: #808080;*/
+	display: inline-block;
+	margin-left: 550px;
+	margin-top: 20px;
+	font-family: 'Oswald', sans-serif;
+}
+
+.main{
+	margin-left: 100px;
+/*	border: 5px solid black;*/
+}
+
+.comicNav{
+	list-style-type: none;
+/*	background-color: red;*/
+	display: inline;
+	text-align: center;
+	padding: 0px;
+	float: left;
+	margin-left: 450px;
+}
+
+.comicNav li{
+	display: inline;
+/*	background-color:  #808080;*/
+	height: 250px;
+}
+
+.comicNav li a{
+	text-decoration: none;
+	background-color:  #808080;
+	padding: 2 20px;
+	color: black;
+	display: inline-block;
+	/*float: right;*/
+	font-family: 'Oswald', sans-serif;
+}
+
+.clearfix:after{
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+.menu ul{
+	float: right;
+	width: 450px;
+/*	background-color:  black;*/
+	height: 3em;
+}
+
+.menu li{
+	display: inline-block;
+} 
+
+.menu li a{
+	text-decoration: none;
+/*	background-color:  #808080;*/
+	color: black;
+	display: inline-block;
+	/*float: right;*/
+	margin-top: 7px;
+	margin-right: 38px;
+	padding: 10px;
+	font-family: 'Oswald', sans-serif;
+}
+
+li a:hover{
+	background-color: green;
+}
+
+/*.cartoon1{
+	border: 5px solid #ffdab9;
+	background-color: #ffdab9;
+}
+*/
+/*.cartoon2{
+	border: 5px solid black;
+}*/
+.example {
+	display: inline-block;
+	float: left;
+	width: 250px;
+	padding: 10px;
+	margin-left: 100px;
+	margin-bottom: 10px;
+	background-color: gray;
+}
+
+.logo{
+	margin-left: 300px;
+	padding: 30px;
+}
+
+.logo h1{
+	display: inline;
+	padding: 0px;
+	font-size: 3em;
+}
+
+#writing{
+	margin-left: 600px;
+}
+
+#word{
+	border: 4px solid black;
+	font-family: 'Fredericka the Great', cursive;
+	font-size: 3em;
+}
