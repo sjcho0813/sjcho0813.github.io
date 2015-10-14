@@ -20,6 +20,7 @@ h2{
 body{
 	margin-left: 150px;
 	margin-right: 150px;
+	background-color: #c1bbbb;
 }
 
 footer{
@@ -31,9 +32,16 @@ footer{
 	font-family: 'Oswald', sans-serif;
 }
 
+article h2{
+	background-color: none;
+}
 .main{
 	margin-left: 100px;
 /*	border: 5px solid black;*/
+}
+
+.body{
+	background-color: yellow;
 }
 
 .comicNav{
@@ -125,6 +133,12 @@ li a:hover{
 	display: inline;
 	padding: 0px;
 	font-size: 3em;
+}
+
+.article{
+	display: inline-block;
+	float: left;
+	width:500px;
 }
 
 #writing{
